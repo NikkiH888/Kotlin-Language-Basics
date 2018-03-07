@@ -24,25 +24,21 @@ fun main(args: Array<String>) {
      * Compare sample1 to sample2 
      */ 
     if(sample1 == sample2) {
-        println("The samples are equal.
-")
+        println("The samples are equal.")
     }
     else {
-        println("The samples are not equal.
-")
+        println("The samples are not equal.")
     }
 
     /*
      * If heartRate is greater than equal to 40 and less than equal to 80 display 
-     * â??Heart rate is normal.â?? otherwise display â??Heart rate is not normal.â??
+     * Heart rate is normal.â?? otherwise display â??Heart rate is not normal.
      */
     if(heartRate >= 40 && heartRate <= 80) {
-        println("Heart rate is normal.
-")
+        println("Heart rate is normal.")
     }
     else {
-        println("Heart rate is not normal.
-")
+        println("Heart rate is not normal.")
     }
 	
     /*
@@ -50,12 +46,10 @@ fun main(args: Array<String>) {
      * wealthy.â?? otherwise display â??Sorry you are so poor.â??
      */
     if(deposits >= 100000000) {
-        println("You are exceedingly wealthy.
-")
+        println("You are exceedingly wealthy.")
     }
     else {
-        println("Sorry you are so poor.
-")
+        println("Sorry you are so poor.")
     }
 
     /*
@@ -68,14 +62,12 @@ fun main(args: Array<String>) {
     /*
      * Display the calculated force preceded by the string â??force = â??. 
      */
-    println("force = " + force + "
-")
+    println("force = " + force)
 
     /*
      * Display the value of distance followed by â?? is the distance.â??
      */
-    println(distance.toString() + " is the distance.
-")
+    println(distance.toString() + " is the distance.")
 
     
     /*
@@ -96,22 +88,17 @@ fun main(args: Array<String>) {
      * â??You made an unknown choice.â?? if choice is something other than 1, 2, or 3.
      */
     when (choice) {
-        1 -> println("You chose 1.
-")
-        2 -> println("You chose 2.
-")
-        3 -> println("You chose 3.
-")
-        else -> println("You made an unknown choice.
-")
+        1 -> println("You chose 1.")
+        2 -> println("You chose 2.")
+        3 -> println("You chose 3.")
+        else -> println("You made an unknown choice.")
     }
 
     /*
      * Using the character constant integral, display the character in integral followed 
      * by the string â?? is an integral.â??
      */
-    println(integral + " is an integral.
-")
+    println(integral + " is an integral.")
 
     /*
      * Using a â??forâ?? loop count from 5 to 10 (inclusive of start and end) using an integer 
